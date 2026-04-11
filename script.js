@@ -26,8 +26,6 @@ function typeWriter() {
 	if (i < txt.length) {
 		document.getElementById("demo").innerHTML += txt.charAt(i);
 		i++;
-		setTimeout(typeWriter, speed,);
-	} else {
-		location.reload();
+		setTimeout(typeWriter);
 	}
 }
