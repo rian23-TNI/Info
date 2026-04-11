@@ -53,7 +53,7 @@ function typeWriter() {
 }
 
 
-function handleClick() {
+function typeWriter() {
   if (!sudahKlik) {
     audioCtx.resume(); // penting biar suara aktif setelah klik 
     typeWriter(); // klik pertama
