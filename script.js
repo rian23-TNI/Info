@@ -30,8 +30,8 @@ function playClickSound() {
   const oscillator = audioCtx.createOscillator();
   const gainNode = audioCtx.createGain();
 
-  oscillator.type = "triangle";
-  oscillator.frequency.setValueAtTime(600 + Math.random() * 200, audioCtx.currentTime);	
+  oscillator.type = "square";
+  oscillator.frequency.setValueAtTime(800, audioCtx.currentTime);	
 	
   gainNode.gain.setValueAtTime(0.1, audioCtx.currentTime); // volume kecil biar halus
 
